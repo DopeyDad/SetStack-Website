@@ -8,6 +8,9 @@ body {
     padding: 0;
     background: #f4f4f4;
 }
+a.btn {
+  text-decoration: none;
+}
 
 /* Navbar */
 .navbar {
@@ -126,6 +129,11 @@ body {
     color: white;
     margin-bottom: 20px;
 }
+.note {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7); /* softer white */
+    margin-top: 16px;
+}
 
 .top-section .btn {
     padding: 10px 20px;
@@ -155,6 +163,11 @@ body {
     font-weight: normal;
     color: white;
     margin-bottom: 20px;
+}
+.note {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7); /* softer white */
+    margin-top: 16px;
 }
 .bottom-section h2 {
     font-size: 15px;
