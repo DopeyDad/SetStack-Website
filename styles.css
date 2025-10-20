@@ -53,11 +53,21 @@ a.btn {
     color: black;
     border-radius: 5px;
 }
-
+.nav-buttons .btn:hover {
+    background: #aaa;
+}
 .btn.primary {
 
     background: #34a0a4;
     color: white;
+}
+
+.btn.primary:hover {
+    background: #287D80;
+}
+
+.btn:hover {
+
 }
 
 @media (max-width: 500px) {
