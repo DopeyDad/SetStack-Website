@@ -66,10 +66,6 @@ a.btn {
     background: #287D80;
 }
 
-.btn:hover {
-
-}
-
 @media (max-width: 500px) {
     .navbar {
         flex-direction: column;
@@ -92,7 +88,7 @@ a.btn {
     justify-content: center;
     height: 200px;
     background: #0E2F42;
-    color: white;
+    color: rgba(245, 245, 255, 0.9);
     font-size: 16px;
 }
 
@@ -117,8 +113,19 @@ a.btn {
 }
 
 .footer .copyright {
+    display: flex;
     font-size: 18px;
     font-weight: light;
+    gap: 12px;
+}
+.footer .email-link {
+    color: rgba(245, 245, 255, 0.9);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+  
+.footer .email-link:hover {
+    color: rgba(255, 255, 255, 1);
 }
 
 
